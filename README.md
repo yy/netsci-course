@@ -1,3 +1,8 @@
 Welcome to Network Science course! 
 
-Networks provide a unifying framework to study many complex systems, such as living cells, brains, society, and constitute one of the fundamental frameworks for data science. Rapidly growing software companies such as Google, Facebook, and LinkedIn have beed building on networks and network science and understanding networks will continue to be one of the crucial aspects of data science. This course covers from fundamental mathematical concepts to algorithms and applications of network science to the real-world data. 
+Hi, thank you for registering to this course. In this course, you'll learn basic concepts, algorithms, and applications of network science, and learn how to analyze and understand network data. You can always start from the **Modules** menu on the left. Be sure to finish the Week 0 so that you are aware of all necessary tools and course structure. 
+
+# Course outline
+
+1. In **Week 1**, we will focus on the question of "Why?" Why do we bother to study networks? What is a network and why is it so important? 
+2. (Hope you are convinced now...) **Week 2** is about 
