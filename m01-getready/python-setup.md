@@ -29,9 +29,6 @@ Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply
 
     jupyter notebook 
 
-or 
-
-    jupyter notebook
 
 in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `IPython notebook` interface. From here, you can create your notebooks and load other notebooks.  
 
