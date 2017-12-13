@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.un~
+*.DS_Store
 
 # TeX
 *.bcf
