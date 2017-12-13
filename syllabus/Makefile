@@ -1,9 +1,9 @@
-MAIN := syllabus_summer
+MAIN := syllabus
 
 all: $(MAIN).pdf
 
 upload: $(MAIN).pdf
-	scp syllabus_summer.pdf yongyeol.com:~/yongyeol.com/teaching/netsci_syllabus_2017_summer.pdf
+	scp syllabus.pdf yongyeol.com:~/yongyeol.com/teaching/netsci_syllabus_2018S.pdf
 
 $(MAIN).pdf: $(MAIN).tex
 	latexmk -pdf $<

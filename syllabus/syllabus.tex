@@ -1,4 +1,4 @@
-\documentclass[11pt,article,oneside]{memoir}
+\documentclass[11pt,article,oneside]{memoir} %{{{
 % based on Kieran Healy's syllabus templates
 % https://github.com/kjhealy/latex-custom-kjh 
 
@@ -27,10 +27,13 @@
 \def\myauthor{Yong-Yeol (YY) Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} I590 \newline} \HUGE Network Science}
+\def\mytitle{{\normalsize \textsc{Info} I606 \newline} \HUGE Network Science}
 
-\begin{document}
+%}}}
 
+\begin{document} %{{{
+
+%{{{ chapter style
 %%\chapterstyle{article-3}
 %\pagestyle{kjh}
 
@@ -39,30 +42,23 @@
 
 \chapterstyle{article-4}  % alternative styles are defined in latex-custom-kjh/needs-memoir/
 
+%}}}
+%{{{ Title
 \title{\LARGE \mytitle}     
 \author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{Spring 2017 Online. %
+\date{Spring 2018 %
 %\newline MW 4:00pm--5:15pm. 
-\newline Office hours: Tuesday 1:30-2:30pm (or on Slack)}
+\newline Office hours: TBD (or on Slack)}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle
-
+%}}}
+%{{{ TA
 \vspace{-20pt}
-{\bfseries Assistant Instructor} \\ Nathaniel Rodriguez (\texttt{njrodrig@umail.iu.edu}) \\ Office Hours: Thursday 4:00-5:00pm
+{\bfseries Assistant Instructor} \\ TBD (\texttt{TBD@iu.edu}) \\ Office Hours: TBD
+%}}}
 
-\section{Course Homepage and communication}
-
-We use Canvas and Slack for sharing course materials, announcements,
-discussion, and communication. The URL for the course Slack site is:
-\url{https://iu-netsci-online.slack.com} You can create an account without
-permission if you use either one of the following email addresses:
-\texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iu.edu},
-\texttt{iupui.edu}. If you have any issues joining Slack, please contact us. 
-
-%\url{https://yy.github.io/dviz-course/}. 
-
-\section{Course Description}
+\section{Course Description} %{{{
 
 Networks provide a unifying framework to study complex systems across
 biological, social, and information systems. This course focuses on the
@@ -71,6 +67,17 @@ questions: why do networks matter? What are the fundamental frameworks and
 theories to understand the structure and dynamics of networks?  How has network
 framework been applied to other fields? What are the frontiers of the research?
 
+%}}}
+\section{Communication} %{{{
+
+We use Slack as the main communication channel. The URL for the course Slack
+site is: \url{https://iu-netsci-online.slack.com} You can create an account by
+using one of the following IU email addresses: \texttt{indiana.edu},
+\texttt{umail.iu.edu}, \texttt{iu.edu}, \texttt{iupui.edu}. If you have any
+issues joining Slack, please contact us. 
+
+%\url{https://yy.github.io/dviz-course/}. 
+%}}}
 \section{Course Objectives}
 
 By the end of the course, students are expected to be able to explain, both
@@ -228,4 +235,4 @@ and Psychological Services}.
 \subsection{Week 16 (4/24-): What makes it viral?}
 \subsection{Week 17 (5/1-5/5): Final Week}
 
-\end{document}
+\end{document} %}}}
