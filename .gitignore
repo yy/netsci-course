@@ -2,6 +2,18 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.un~
+
+# TeX
+*.bcf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+syllabus*.pdf
+*.run.xml
 
 # C extensions
 *.so
