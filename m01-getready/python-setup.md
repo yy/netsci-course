@@ -32,10 +32,29 @@ Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply
 
 in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `IPython notebook` interface. From here, you can create your notebooks and load other notebooks.  
 
+# Cloud options
+
+There are also a variety of cloud-based options where you can run Jupyter notebook on the cloud. You may find them more convenient. Of course it may be more difficult to install the packages that you want. 
+
+## Kaggle
+
+- https://www.kaggle.com/kernels
+
+## Google's colaboratory
+
+- https://colab.research.google.com/notebook
+
+## cocalc
+
+- https://cocalc.com/
+
+## Microsoft Azure notebooks
+
+- https://notebooks.azure.com/
+
 ## Wakari.io
 
 Another very convenient way to use the Python stack is using a web-based Python data analysis platform, such as [Wakari.io][wakari]. This is a service provided by [Continuum Analytics][continuum]. You can set up your environment by installing necessary packages and uploading your datasets. Then you can use IPython notebook (Jupyter) online. 
-
 
 [conda]: http://continuum.io/downloads
 [python-download]: https://www.python.org/downloads/
