@@ -3,7 +3,7 @@ MAIN := syllabus
 all: $(MAIN).pdf
 
 upload: $(MAIN).pdf
-	scp syllabus.pdf yongyeol.com:~/yongyeol.com/teaching/netsci_syllabus_2018S.pdf
+	scp syllabus.pdf yyahn@yongyeol.com:~/yongyeol.com/teaching/2018SP_netsci_syllabus.pdf
 
 $(MAIN).pdf: $(MAIN).tex
 	latexmk -pdf $<
