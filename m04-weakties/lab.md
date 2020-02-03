@@ -4,7 +4,7 @@ Gephi can calculate statistics of interest about a graph and can produce pretty 
 
 You can download and install Gephi (For Windows users who have trouble installing, see the end of this assignment for one possible solution): https://gephi.org/. The following is a tutorial made by a previous AI, Nathaniel.
 
-[gephi tutorial.mp4](https://iu.instructure.com/courses/1774393/files/86775833/download?wrap=1)
+[gephi tutorial.mp4](https://iu.instructure.com/files/96842218/download?wrap=1)
 
 Depending upon what version of Gephi you use the location of some buttons and tabs may vary, but the general functionality is roughly the same. If you want to know more about Gephi or what file formats it can read/write you can visit their [documentation page](https://gephi.org/users/). 
 
