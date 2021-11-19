@@ -61,8 +61,8 @@
 
 Network science is a unifying framework to study complex systems, such as living organisms, societies, and many techno-social systems, because complex systems are often defined by interactions between their elements.
 This graduate-level course focuses on the fundamental concepts as well as key applications of network science.
-The course will explore recent advancement of network science, with respect to statistical properties and models of real-world networks, network algorithms, and practical applications.
-Topics include: how information and diseases spread in our society, measures and algorithms for quantifying importance, link prediction, and community detection.
+The course will explore recent advancement of network science, with respect to statistical properties and models of real-world networks, network (graph) algorithms, and practical applications.
+Topics include: how information and diseases spread in our society, measures and algorithms for quantifying importance of nodes, link prediction, community detection (clustering), and graph embedding.
 
 %questions: why do networks matter? What are the fundamental frameworks and
 %theories to understand the structure and dynamics of networks?  How has network
@@ -76,8 +76,12 @@ Students are also expected to be able to explain, both mathematically and concep
 %}}}
 \section{Communication} %{{{
 
-We will use Slack as the main communication channel.
-Thus, \emph{the very first thing you need to do is to join the course slack}:
+We will use Canvas and Slack for communication. \textbf{Canvas} is for official communications as well as for anything that contains personal and sensitive information. \textbf{Slack} is for day-to-day information sharing, Q\&As, team discussions, and other casusal conversations. 
+
+Announcements, Q\&As, and other communication will be sent via Canvas and Slack. 
+Although the most critical announcements will be sent via both platforms, a lot of course-related information (as well as questions and answers) will be shared on Slack and thus you will miss most of useful---although not \emph{essential} in completing the course---course-related information if you are not on Slack. 
+When joining the course Slack, feel free to avoid using your full name (e.g., use ``John D.'' instead of ``John Doe'') to protect your privacy. 
+Also never post your personal information or sensitive data (e.g., grades) on anywhere outside Canvas or other approved IU services. 
 
 \url{https://iu-netsci-course.slack.com/}
 
@@ -91,8 +95,8 @@ If you have any issues joining Slack, please contact the instructor.
 Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't even want to know. Please expect the following response time:
 
 \begin{itemize}
-\item \textbf{Email or Canvas}: the instructors will respond within \emph{one week} (likely within several days).
-\item \textbf{Slack}: the instructors will respond within \emph{one day} (likely within several hours).
+\item \textbf{Email or Canvas}: the instructors will be able to respond within \emph{one week} (likely within several days).
+\item \textbf{Slack}: the instructors will be able to respond within \emph{one day} (likely within several hours).
 
 \end{itemize}
 
@@ -104,20 +108,16 @@ Whenever you are not happy about the course or have a suggestion for improving t
 %}}}
 \section{Prerequisites} %{{{ \label{sec:Prerequisites}
 
-The course will require a good foundation of mathematics, statistics, and programming,
-although there is no formal prerequisite. Key topics are:
-probability, statistics, linear algebra, data structures, and algorithms.
-Python is used as the main programming language and it will be very helpful to
-be proficient in Python. Please contact the instructor if you are uncertain
-about your background.
+The course will require a good foundation of mathematics, statistics, programming, algorithms, and data structure although there is no formal prerequisite. 
+Python is used as the main programming language. 
+Please contact the instructor if you are uncertain about your background.
 
 %}}}
 \section{Requirements and Evaluation} %{{{ \label{sec:requirements}
 
-This course is not driven by the lectures, but by your participation and engagement.
-So be prepared to lead your own learning! 
-Bring pen and papers; be prepared to discuss and write things down.
-And of course, you need to read reading assignments, attend the classes, complete quizzes and assignments, and actively participate.
+You are of course expected to read reading assignments, attend the classes, and complete quizzes and assignments. 
+This course is not driven by one-way lectures, but by your participation and engagement.
+So be prepared to think hard, do math with a pen \& paper, and debate rigorously with classmates. 
 
 The main evaluation will be based on an exam and a class project.
 The project can be conducted individually or by forming a small team.
@@ -247,49 +247,23 @@ Note that there may be various adjustments at the end of the class and the grade
 \clearpage
 \section{Course Schedule} %{{{
 
-(The schedule is subject to change)
-%Find the most up-to-date schedule at \url{https://github.com/yy/dviz-course/wiki/Schedule}
+The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar}. 
 
-\subsection{Week 1 (1/13-):  Get ready! Why do we care?} %{{{
+\subsection{Key dates}\label{sub:key_dates} %{{{
 
-%\vspace{-0.2em}\begin{itemize}\itemsep0em
-%\item Network Science Ch. 1
-%\end{itemize}
+Mark your calendar and plan ahead!
+
+\begin{itemize}%{{{
+\item Project proposal due: \textbf{3/1}
+\item Project presentation files and final paper due: \textbf{4/27}
+\item Project presentation (residential): \textbf{4/27} and \textbf{4/29} 
+\item Final Exam: During the final week of the semester.
+\end{itemize} %}}}
+
 %}}}
-\subsection{Week 2 (1/20-):  Friendship paradox: a life lesson}%{{{
-%\vspace{-0.2em}\begin{itemize}\itemsep0em
-%\item Network Science Ch. 2
-%\item S.L. Feld, ``Why Your Friends Have More Friends Than You Do'', American Journal of Sociology 96, 1464 (1991).
-%\item Steven Strogatz, \href{https://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/}{``Friends You Can Count On''}, New York Times, Sep. 17th, 2012.
-%\item N.O. Hodas et al., ``Friendship Paradox Redux: Your Friends Are More Interesting Than You'', ICWSM'13
-%\item Y.-H. Eom and H.-H. Jo, ``Generalized friendship paradox in complex networks: The case of scientific collaboration'', Scientific Reports 4, 4603 (2014)
-%\item J.P. Bagrow et al., ``Which friends are more popular than you? Contact strength and the friendship paradox in social networks'', ASONAM'17
-%\item J. Bollen et al., ``The happiness paradox: your friends are happier than you'', EPJ Data Science 6, 4 (2017).
-%\end{itemize}
-%}}}
-\subsection{Week 3 (1/27-):  ``What a small world!''}%{{{
-%\vspace{-0.2em}\begin{itemize}\itemsep0em
-%\item What is the ``Kevin Bacon game''?
-%\item Who has the ``Erdős-Bacon-Sabbath number''?
-%\item Stanley Milgram, ``The Small-World Problem'', Psychology Today 1, 61 (1967).
-%\item Peter Sheridan Dodds et al., ``An Experimental Study of Search in Global Social Networks'', Science 301, 827 (2003).
-%\item Johan Ugander et al., ``The Anatomy of the Facebook Social Graph'', arXiv:1111.4503 (2011).
-%\end{itemize}
-%}}}
-\subsection{Week 4 (2/3-):  Strength of weak ties}
-\subsection{Week 5 (2/10-):  Scale-free networks? Steak-pun networks?}
-\subsection{Week 6 (2/17-):  Network centralities}
-\subsection{Week 7 (2/24-):  Network structure I: communities and other properties}
-\subsection{Week 8 (3/2-):  Network structure II: communities and other properties}
-\subsection{Week 9 (3/9-):  Theory of random graphs (Project proposal due: 3/13)}
-\subsection{\color{gray}Week 10 (3/16-): Spring break}
-\subsection{Week 11 (3/23-): Theory of random graphs}
-\subsection{Week 12 (3/30-): Network epidemics and robustness}
-\subsection{Week 13 (4/6-): Social influence and information diffusion}
-\subsection{Week 14 (4/13-): Exam and Exam Review}
-\subsection{Week 15 (4/20-): Project hack week}
-\subsection{Week 16 (4/27-): Final presentations (Final presentation due: 4/26)}
-\subsection{Week 17 (5/4-): Final Week (Project paper due: 5/8)}
+
+\input{spring_schedule.tex}
+
 
 %}}}
 
