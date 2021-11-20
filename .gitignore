@@ -100,3 +100,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+syllabus/syllabus.synctex.gz
+syllabus/.vscode/spellright.dict

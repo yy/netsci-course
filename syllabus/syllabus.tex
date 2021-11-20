@@ -23,11 +23,11 @@
 \def\myversion{}
 \def\myrevision{}
 
-\def\myaffiliation{\ \\Indiana University}
-\def\myauthor{Yong-Yeol (YY) Ahn}
+\def\myaffiliation{Indiana University}
+\def\myauthor{Yong-Yeol ``YY'' Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} I606 (Spring 2020) \newline} \HUGE Network Science}
+\def\mytitle{{\normalsize \textsc{Info} I606 (Spring 2022) \newline} \HUGE Network Science}
 
 %}}}
 \begin{document} %{{{
@@ -45,38 +45,35 @@
 %{{{ Title
 \title{\LARGE \mytitle}
 \author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{TR 9:30am--10:45am%
-\newline Lindley Hall 328 (LH 328)
-\newline Office hours: Wed 10am-11am (or message me anytime on Slack)}
+\date{TR 9:45am--11am and Online%
+\newline BH 008 (Ballantine Hall 008) 
+\newline Office hours: TBD (also possible by appointment \& message me anytime on Slack)}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle
 %}}}
 %{{{ TA
 \vspace{-20pt}
-{\bfseries Assistant Instructor} \\ Residential: Elise Jing (\texttt{jingy@iu.edu}); Office Hours: Monday 2pm-3pm \\ Online: Jaehyuk Park (\texttt{jp70@iu.edu}); Office Hours: Friday 2pm-3pm
+{\bfseries Assistant Instructor} \\ Residential: TBD \\ Online: TBD
+%Elise Jing (\texttt{jingy@iu.edu}); Office Hours: Monday 2pm-3pm \\ Online: Jaehyuk Park (\texttt{jp70@iu.edu}); Office Hours: Friday 2pm-3pm
 %}}}
 
 \section{Course Description} %{{{
 
-Network science is a unifying framework to study complex systems, such as living organisms, societies, and many techno-social systems, because complex systems are often defined by interactions between their elements.
-This graduate-level course focuses on the fundamental concepts as well as key applications of network science.
-The course will explore recent advancement of network science, with respect to statistical properties and models of real-world networks, network (graph) algorithms, and practical applications.
-Topics include: how information and diseases spread in our society, measures and algorithms for quantifying importance of nodes, link prediction, community detection (clustering), and graph embedding.
-
-%questions: why do networks matter? What are the fundamental frameworks and
-%theories to understand the structure and dynamics of networks?  How has network
-%framework been applied to other fields? What are the frontiers of the research?
+Network science is a unifying framework to study complex systems, such as living organisms, societies, and many techno-social systems. 
+Therefore, understanding networks and network (graph) data is fundamental to numerous domains. 
+This graduate-level course introduces the fundamental concepts as well as key applications of network science.
+Topics include: statistical properties and models of real-world networks, network (graph) data \& algorithms, how information and diseases spread in our society, and machine learning with networks---e.g., community detection (clustering) and graph embedding.
 
 %}}}
 \section{Course Objectives} %{{{
 
-By the end of the course, students are expected to be able to identify, construct, and analyze networks by choosing and applying appropriate methods and algorithms.
-Students are also expected to be able to explain, both mathematically and conceptually, the key network concepts, models, and statistical properties, as well as their implications.
+By the end of the course, students are expected to be able to identify, construct, model, and analyze networks by choosing and applying appropriate methods and algorithms, as well as understanding ethical issues surrounding network data.
+Students are also expected to be able to explain, both mathematically and conceptually, the key network concepts, algorithms, models, and statistical properties, as well as their implications.
 %}}}
 \section{Communication} %{{{
 
-We will use Canvas and Slack for communication. \textbf{Canvas} is for official communications as well as for anything that contains personal and sensitive information. \textbf{Slack} is for day-to-day information sharing, Q\&As, team discussions, and other casusal conversations. 
+We will use Canvas and Slack for communication. \textbf{Canvas} is for official communications as well as for anything that contains personal and sensitive information. \textbf{Slack} is for day-to-day information sharing, Q\&As, team discussions, and other casual conversations. 
 
 Announcements, Q\&As, and other communication will be sent via Canvas and Slack. 
 Although the most critical announcements will be sent via both platforms, a lot of course-related information (as well as questions and answers) will be shared on Slack and thus you will miss most of useful---although not \emph{essential} in completing the course---course-related information if you are not on Slack. 
@@ -92,7 +89,7 @@ by visiting the signup URL:
 You can create an account by using one of the following IU email addresses: \texttt{iu.edu}, \texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iupui.edu}.
 If you have any issues joining Slack, please contact the instructor.
 
-Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't even want to know. Please expect the following response time:
+Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't want to know. If your communication contains sensitive information, you can use slack to notify me about your email or canvas message. Please expect the following response time:
 
 \begin{itemize}
 \item \textbf{Email or Canvas}: the instructors will be able to respond within \emph{one week} (likely within several days).
@@ -104,18 +101,17 @@ Whenever you are not happy about the course or have a suggestion for improving t
 
 \url{https://forms.gle/9XrnrBn9faARDAsm7}
 
-%\url{https://yy.github.io/dviz-course/}.
 %}}}
 \section{Prerequisites} %{{{ \label{sec:Prerequisites}
 
-The course will require a good foundation of mathematics, statistics, programming, algorithms, and data structure although there is no formal prerequisite. 
+Although there is no formal prerequisite, the course will require a good foundation of mathematics, statistics, programming, algorithms, and data structure. 
 Python is used as the main programming language. 
 Please contact the instructor if you are uncertain about your background.
 
 %}}}
 \section{Requirements and Evaluation} %{{{ \label{sec:requirements}
 
-You are of course expected to read reading assignments, attend the classes, and complete quizzes and assignments. 
+Students are expected to read reading assignments, attend class meetings, and complete quizzes and assignments. 
 This course is not driven by one-way lectures, but by your participation and engagement.
 So be prepared to think hard, do math with a pen \& paper, and debate rigorously with classmates. 
 
@@ -127,77 +123,54 @@ For more information about the projects, please visit \url{https://github.com/yy
 %}}}
 \section{Books and key materials} %{{{
 
-We will closely follow the
-\href{http://barabasi.com/networksciencebook/}{Network Science} by Albert-Lásló
+We will sample from 
+\href{http://barabasi.com/networksciencebook/}{Network Science} by Albert-László
 Barabási and
 \href{https://www.amazon.com/Networks-Mark-Newman/dp/0198805098}{Networks:
-An Introduction} by Mark Newman. The following books can be also helpful:
-
-\subsection{Network science} %{{{
-
-\begin{enumerate}
-    \item \href{https://www.amazon.com/Networks-Crowds-Markets-Reasoning-Connected/dp/0521195330}{Networks, Crowds, and Markets: Reasoning about a Highly Connected World} by David Easley and Jon Kleinberg.
-    \item \href{https://www.amazon.com/Linked-Everything-Connected-Business-Everyday/dp/0465085733}{Linked: How Everything Is Connected to Everything Else and What It Means for Business, Science, and Everyday Life} by Albert-Lásló Barabási.
-\end{enumerate}
-
-%}}}
-\subsection{Python and data analysis} %{{{
-
-\begin{enumerate}
-
-\item \href{http://www.diveintopython3.net/index.html}{Dive Into Python} by Mark Pilgrim (available online): a good Python book.
-
-\item \href{http://www.learnpython.org}{Learnpython.org}: A web-based interactive tutorial.
-
-\item \href{http://work.thaslwanter.at/Stats/html/}{An introduction to statistics} (with Python) by Thomas Haslwanter (available online): this book uses Python to explain basic statistics. It also contains a succinct tutorial for Python and data visualization using Python.
-
-\item \href{https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615}{Mining the Social Web: Data Mining Facebook, Twitter, LinkedIn, Google+, GitHub, and More} by Matthew A. Russell.
-
-\item \href{http://ipython.rossant.net}{Learning IPython for Interactive Computing and Data Visualization} by  Cyrille Rossant: Introduction to IPython as well as lots of advanced analysis
-
-
-\end{enumerate} %}}}
+An Introduction} by Mark Newman, as well as some materials from the instructor. See also \url{https://yyiki.org/wiki/Network%20science/} 
 
 %}}}
 \section{Policies and advices} %{{{
 
 \begin{enumerate}
 
-\item \emph{Be honest.} Your assignments and papers should be your own work.
-If you find useful resources for your assignments, share them and cite them. If
-your friends helped you, acknolwedge them. Feel free to discuss both online and
-offline, but you should not show your solution nor see other's. Any cases of
-serious academic misconduct (cheating, fabrication, plagiarism, etc) will be
-reported to the School and the Dean of Students, following the standard
-procedure. But more than anything, cheating will hurt you in a long-term and
-\emph{not cool}.
+\item \emph{Let's keep everyone safer together.} Let's not be a jerk. 
+Free masks are available near the entrance of every building. 
+If you are not feeling well, please stay home and rest. 
+See the next item for more information about missing classes. 
+
+\item \emph{Missing classes.} 
+If you were to miss a class, you need to notify the instructor and TAs \emph{before} the class begins to get an accommodation, except in extreme circumstances. 
+You can then take the in-class quiz on the same day or at least before the slides are posted. 
+Then you can use the videos and slides (and office hours) to catch up with the class. 
+If your circumstances do not allow this arrangement, you have to get an explicit permission. 
+
+
+\item \emph{Be honest.} Your assignments and papers should be your own work.  
+If you find useful resources for your assignments, share them and cite them. 
+If your friends helped you, acknowledge them. 
+Feel free to discuss both online and offline, but you should not show your solution nor see others'.  
+Any cases of serious academic misconduct (cheating, fabrication, plagiarism, etc) will be reported to the School and the Dean of Students, following the standard procedure. 
+But more than anything, cheating will hurt you in a long-term and \emph{not cool}.
 
 \item \emph{You have the responsibility of backing up all your data and code}.
-Always use at least a cloud storage service such as Box, Dropbox, or Google
-Drive. Ideally, learn version control systems and use
-\url{https://github.iu.edu} or \url{https://github.com}. Loss of data, code, or
-papers (e.g. malfunction of your laptop) is not an acceptable excuse.
-
-\item \emph{Inform your excused absences prior to class}. Please contact the instructor \emph{prior} to the class that you cannot attend. 
+Always use at least a cloud storage service such as Box, Dropbox, or Google Drive. 
+Ideally, learn version control systems and use \url{https://github.iu.edu} or \url{https://github.com}. 
+The loss of data, code, or papers is not an acceptable excuse.
 
 \item \emph{Late assignments}. There will be 10\% late penalty for the late assignments unless excused. 
 
-\item \emph{Disabilities.} Every attempt will be made to accommodate qualified
-students with disabilities (e.g. mental health, learning, chronic health,
-physical, hearing, vision, neurological, etc.). You must have established your
-eligibility for support services through Disability Services for Students. Note
-that services are confidential, may take time to put into place, and are not
-retroactive.  Captions and alternate media for print materials may take three
-or more weeks to get produced. Please contact Disability Services for Students
-at \url{http://disabilityservices.indiana.edu} or 812-855-7578 as soon as
-possible if accommodations are needed. The office is located on the third
-floor, west tower, of the Wells Library (Room W302). Walk-ins are welcome 8 AM
-to 5 PM, Monday through Friday. You can also locate a variety of campus
-resources for students and visitors who need assistance at
-\url{http://www.iu.edu/~ada/index.shtml}.
+\item \emph{Disabilities.} Every attempt will be made to accommodate qualified students with disabilities (e.g., mental health, learning, chronic health, physical, hearing, vision, neurological, etc.). 
+You must have established your eligibility for support services through Disability Services for Students. 
+Note that services are confidential, may take time to put into place, and are not retroactive.  
+Captions and alternate media for print materials may take three or more weeks to get produced. 
+Please contact Disability Services for Students at \url{http://disabilityservices.indiana.edu} or 812-855-7578 as soon as possible if accommodations are needed. 
+The office is located on the third floor, west tower, of the Wells Library (Room W302). 
+Walk-ins are welcome 8 AM to 5 PM, Monday through Friday. 
+You can also locate a variety of campus resources for students and visitors who need assistance at \url{http://www.iu.edu/~ada/index.shtml}.
 
 \item \emph{Bias-based incidents.} Any act of discrimination or harassment based on 
-race, ethinicity, religious affiliation, gender, gender identity, sexual orientation, or
+race, ethnicity, religious affiliation, gender, gender identity, sexual orientation, or
 disability can be reported to \texttt{biasincident@indiana.edu} or to the Dean of Students Office at (812) 855-8188. 
 
 \item \emph{Sexual misconduct and Title IX.} As your instructor, one of my
@@ -232,13 +205,14 @@ encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more.
 
 Note that there may be various adjustments at the end of the class and the grade (percentage) that you see on the Canvas does not necessarily reflect your final grade.
 
-\begin{itemize}
+\vspace{-10pt}
+\begin{itemize}\itemsep=0pt
 
-\item Participation (attendance, quiz, and discussion)\footnote{There will be extra participation credits for sharing useful information and helping others on slack}: 30\% 
+\item Participation (attendance, quiz, and discussion)\footnote{There will be extra participation credits for sharing useful information and helping others.}: 20\% 
 
 \item Assignments: 20\%
 
-\item Exam: 20\%
+\item Exam: 30\%
 
 \item Project: 30\%
 
@@ -253,10 +227,11 @@ The schedule may change due to unexpected circumstances. See also \href{https://
 
 Mark your calendar and plan ahead!
 
-\begin{itemize}%{{{
-\item Project proposal due: \textbf{3/1}
-\item Project presentation files and final paper due: \textbf{4/27}
-\item Project presentation (residential): \textbf{4/27} and \textbf{4/29} 
+\vspace{-10pt}
+\begin{itemize}\itemsep=0pt%{{{
+\item Project proposal due: %\textbf{3/1}
+\item Project presentation files and final paper due: %\textbf{4/27}
+\item Project presentation (residential): %\textbf{4/27} and \textbf{4/29} 
 \item Final Exam: During the final week of the semester.
 \end{itemize} %}}}
 
