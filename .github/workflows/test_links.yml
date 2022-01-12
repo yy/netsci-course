@@ -4,16 +4,16 @@ on:
   push:
     branches:
     - master
-    # paths:
-    # - '**/**.md'
+    paths:
+    - '**/**.md'
   pull_request:
     branches:
     - master
     paths:
     - '**/**.md'
-  # schedule:
-  # # Run every Monday at 9AM EST (1PM UTC)
-  # - cron: "0 13 * * 1"
+  schedule:
+  # Run every Monday at 9AM EST (1PM UTC)
+  - cron: "0 13 * * 1"
 
 
 jobs:
