@@ -50,5 +50,5 @@ There are also a variety of cloud-based options where you can run Jupyter notebo
 [conda]: http://continuum.io/downloads
 [python-download]: https://www.python.org/downloads/
 [brew]: http://brew.sh/
-[continuum]: http://continuum.io/about-continuum
+[continuum]: https://anaconda.org/anaconda/continuum-docs
 [wakari]: https://wakari.io
