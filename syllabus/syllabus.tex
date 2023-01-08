@@ -16,7 +16,7 @@
 \def\mybibliocommand{}
 \def\mysubtitle{}
 \def\myaffiliation{Indiana University}
-\def\myaddress{Info East Rm 316}
+\def\myaddress{Luddy AI Center Rm 2026}
 \def\myemail{yyahn@iu.edu}
 \def\myweb{http://yongyeol.com}
 \def\myphone{856-2920}
@@ -25,9 +25,9 @@
 
 \def\myaffiliation{Indiana University}
 \def\myauthor{Yong-Yeol ``YY'' Ahn}
-\def\mykeywords{Visualization, Data, Undergraduate, Informatics}
+\def\mykeywords{networks, network science, data science}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} I606 (Spring 2022) \newline} \HUGE Network Science}
+\def\mytitle{{\normalsize \textsc{Info} I606 (Spring 2023) \newline} \HUGE Network Science}
 
 %}}}
 \begin{document} %{{{
@@ -42,12 +42,12 @@
 \chapterstyle{article-4}  % alternative styles are defined in latex-custom-kjh/needs-memoir/
 
 %}}}
-%{{{ Title
+%{{{ my info 
 \title{\LARGE \mytitle}
 \author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{Time: \textbf{TR 9:45am--11am} and Online%
-\newline Location: \textbf{BH 008} (Ballantine Hall) 
-\newline Office hours: Monday 12pm-1pm ET (also by appointment or anytime via Slack)}
+\date{\textbf{Time}: TR 9:45am--11am and Online%
+  \newline \textbf{Location:} LH 101 
+\newline \textbf{Office hours}: Monday 12pm-1pm ET on Zoom. \\You can also stop by my office (LU2026) anytime; also anytime on Slack.}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle
@@ -55,8 +55,12 @@
 %{{{ TA
 \vspace{-20pt}
 {\bfseries Assistant Instructor} \\ 
-Vincent Wong (\texttt{vmwong@iu.edu}), Shubham Singh (\texttt{shusingh@iu.edu}), Marcus Skinner (\texttt{marcskin@iu.edu}), Andrew Huang (\texttt{andhuan@iu.edu}), Vedant Vachharajani (\texttt{vevach@iu.edu}), Ashutosh Tiwari (\texttt{ashutiwa@iu.edu}), Karthik Shathiri (\texttt{kashat@iu.edu})
+Vincent Wong (\texttt{vmwong@iu.edu})\\
+Rachith Aiyappa (\texttt{racball@iu.edu})\\
+Ashutosh Tiwari (\texttt{ashutiwa@iu.edu})\\
+Ashutosh Hathidara (\texttt{ashuhath@iu.edu})
 %)Elise Jing (\texttt{jingy@iu.edu}); Officours: Monday 2pm-3pm \\ Online: Jaehyuk Park (\texttt{jp70@iu.edu}); Office Hours: Friday 2pm-3pm}}
+%}}}
 
 \section{Course Description} %{{{
 
@@ -76,24 +80,26 @@ Students are also expected to be able to explain, both mathematically and concep
 We will use Canvas and Slack for communication. \textbf{Canvas} is for official announcements as well as for anything that contains private and sensitive information. \textbf{Slack} is for day-to-day information sharing, Q\&As, team discussions, and other casual conversations. 
 
 Announcements, Q\&As, and other communication will be sent via Canvas and Slack. 
-Although the most critical announcements will be sent via both platforms, a lot of course-related information (as well as questions and answers) will be shared on Slack and thus you will miss most of useful---although not \emph{essential} in completing the course---course-related information if you are not on Slack. 
+Although the most critical announcements will be sent via both platforms, a lot of course-related information (as well as questions and answers) will be shared on Slack and thus you will miss a lot of useful---although not \emph{essential} in completing the course---course-related information if you are not on Slack. 
 When joining the course Slack, feel free to avoid using your full name (e.g., use ``John D.'' instead of ``John Doe'') to protect your privacy. 
 Also never post your personal information or sensitive data (e.g., grades) anywhere outside Canvas or other approved IU services. 
+The Slack site is:
 
 \url{https://iu-netsci-course.slack.com/}
 
-by visiting the signup URL:
+You can join by visiting the signup URL:
 
 \url{https://iu-netsci-course.slack.com/signup}
 
 You can create an account by using one of the following IU email addresses: \texttt{iu.edu}, \texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iupui.edu}.
+I can also invite you with any email address. 
 If you have any issues joining Slack, please contact the instructor.
 
-Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't want to know. \emph{If your communication contains sensitive information}, you should use the official channels (emails or canvas messages), but you can still use slack to \emph{notify me} about your email or canvas message. Please expect the following response time:
+Email (and thus Canvas) will be much slower than Slack because the instructors are under a constant bombardment of emails. \emph{If your communication contains sensitive information}, you should use the official channels (emails or canvas messages), but you can still use slack to \emph{notify me} about your email or canvas message. Please expect the following response time:
 
 \begin{itemize}
-\item \textbf{Email or Canvas}: the instructors will be able to respond within \emph{one week} (likely within several days).
-\item \textbf{Slack}: the instructors will be able to respond within \emph{one day} (likely within several hours).
+\item \textbf{Email or Canvas}: the instructors will probably be able to respond within \emph{one week} (likely within several days).
+\item \textbf{Slack}: the instructors will probably be able to respond within \emph{one day} (likely within several hours).
 
 \end{itemize}
 
@@ -113,7 +119,7 @@ Please contact the instructor if you are uncertain about your background.
 
 Students are expected to read reading assignments, attend class meetings, and complete quizzes and assignments. 
 This course is not driven by one-way lectures, but by your participation and engagement.
-So be prepared to think hard, do math with a pen \& paper, and debate rigorously with classmates. 
+So be prepared to think, calculate with a pen \& paper, and debate vigorously with classmates. 
 
 The main evaluation will be based on an exam and a class project.
 The project can be conducted individually or by forming a small team.
@@ -130,16 +136,54 @@ Barabási and
 An Introduction} by Mark Newman, as well as some materials from the instructor. See also \url{https://yyiki.org/wiki/Network%20science/} 
 
 %}}}
+\section{Grading}\label{sec:grading_tentative_} %{{{
+
+Note that there may be some adjustments (e.g., a curve) at the end of the class. Also, some grading may happen late and some grades may not be released by mistake. Therefore, the grade (percentage) that you see on the Canvas may not necessarily reflect your final grade.
+
+\vspace{-10pt}
+\begin{itemize}\itemsep=0pt
+
+\item Participation (attendance, quiz, and discussion)\footnote{There may be extra participation credits for sharing useful information and helping others.}: 20\%  (30\% for online section)
+
+\item Assignments: 20\%
+
+\item Exam: 30\% (20\% for online section)
+
+\item Project: 30\%
+
+\end{itemize}
+%}}}
+\section{Course Schedule} %{{{
+
+The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar} for holidays, breaks, etc. 
+
+\subsection{Key dates}\label{sub:key_dates} %{{{
+
+Mark your calendar and plan ahead!
+
+\vspace{-10pt}
+\begin{itemize}\itemsep=0pt%{{{
+\item Project proposal due: \textbf{3/3}
+\item Project presentation (residential): \textbf{4/25} and \textbf{4/27}
+\item Project final paper due: \textbf{5/5}
+\item Final Exam: TBD, During the final week of the semester (5/1-5/5)
+\end{itemize} %}}}
+
+%}}}
+
+\input{spring_schedule.tex}
+
+
+%}}}
 \section{Policies and advice} %{{{
 
 \begin{enumerate}
 
-\item \emph{Let's keep everyone safer together.} Let's not be a jerk. 
-Free masks are available near the entrance of every building. 
+\item \emph{Let's keep everyone safe together.} 
+Let's not be a jerk to each other. 
+Masks are not required, but welcome. 
 If you are not feeling well, please stay home and rest. 
-If you suspect any exposure, please get tested and stay home. 
-There will be no penalty for missing classes due to COVID-19 or other health-related reasons as long as you have informed the absence before the class. 
-See the next item for more information about missing classes. 
+There will be no penalty for missing classes due to COVID-19 or other health-related reasons \emph{as long as you have informed the absence before the class}. 
 
 \item \emph{Missing classes.} 
 If you were to miss a class, you need to notify the instructor and TAs \emph{before} the class begins to get an accommodation, except in extreme circumstances. 
@@ -154,8 +198,8 @@ Any cases of serious academic misconduct (cheating, fabrication, plagiarism, etc
 But more than anything, cheating will hurt you in the long term and \emph{not cool}.
 
 \item \emph{You have the responsibility of backing up all your data and code}.
-Always use at least a cloud storage services such as Box, Dropbox, or Google Drive. 
-Ideally, learn version control systems and use \url{https://github.iu.edu} or \url{https://github.com}. 
+Always use at least a cloud storage services such as Google Drive or One Drive. 
+Learn version control systems and use \url{https://github.iu.edu} or \url{https://github.com}. 
 The loss of data, code or papers due to the lack of any backup is not an acceptable excuse.
 
 %\item \emph{Late assignments}. There will be a 10\% late penalty for the late assignments unless excused. 
@@ -201,45 +245,4 @@ encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more.
 
 \end{enumerate}
 %}}}
-\section{Grading}\label{sec:grading_tentative_} %{{{
-
-Note that there may be various adjustments (e.g., a curve) at the end of the class. Also, some grading may happen slowly. Therefore, don't trust the grade (percentage) that you see on the Canvas! It does not necessarily reflect your final grade.
-
-\vspace{-10pt}
-\begin{itemize}\itemsep=0pt
-
-\item Participation (attendance, quiz, and discussion)\footnote{There will be extra participation credits for sharing useful information and helping others.}: 20\%  (30\% for online section)
-
-\item Assignments: 20\%
-
-\item Exam: 30\% (20\% for online section)
-
-\item Project: 30\%
-
-\end{itemize}
-%}}}
-\clearpage
-\section{Course Schedule} %{{{
-
-The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar} for holidays, breaks, etc. 
-
-\subsection{Key dates}\label{sub:key_dates} %{{{
-
-Mark your calendar and plan ahead!
-
-\vspace{-10pt}
-\begin{itemize}\itemsep=0pt%{{{
-\item Project proposal due: \textbf{3/4}
-\item Project presentation and final paper due: \textbf{4/22}
-\item Project presentation (residential): \textbf{4/26} and \textbf{4/28} 
-\item Final Exam: During the final week of the semester. TBD
-\end{itemize} %}}}
-
-%}}}
-
-\input{spring_schedule.tex}
-
-
-%}}}
-
 \end{document} %}}}
