@@ -11,7 +11,7 @@ Gephi became popular with its fast layout algorithms and powerful functionalitie
 
 You can download and install Gephi: <https://gephi.org/>. The following is a tutorial made by a previous AI, Nathaniel.
 
-[Gephi tutorial](https://youtu.be/MtgIQP0g5Hs)
+[Gephi tutorial](https://www.youtube.com/watch?v=PAoRKtUfUkA)
 
 Depending upon what version of Gephi you use the location of some buttons and tabs may vary, but the general functionality is roughly the same. If you want to know more about Gephi or what file formats it can read/write you can visit their [documentation page](https://gephi.org/users/).
 
