@@ -4,7 +4,7 @@ This tutorial video does a good job of explaining how you can use Gephi to detec
 
 For the first part of the assignment download the [American college football network](http://www-personal.umich.edu/~mejn/netdata/) and use it to complete the assignment (note: the force atlas layout is usually pretty good for visualizing networks with community structure).
 
-1. Adjust the resolution of the community detection algorithm and get a sense of what communities are formed at different resolutions. Pick a resolution that makes sense to you. Give a physical interpretation of the communities and justify your choice for the resolution parameter.
+1. Adjust the resolution of the community detection algorithm and get a sense of what communities are formed at different resolutions. Pick a resolution that makes sense to you. Provide an interpretation of the communities and justify your choice for the resolution parameter.
 2. Calculate the betweenness centrality for the nodes in the network and create a visualization which shows both the betweenness centrality and community membership (save this figure). How are betweenness centrality and community structure related?
 
 Now download a graph of your choosing (this can be a network you are investigating for you final project):
