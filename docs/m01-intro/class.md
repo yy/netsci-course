@@ -1,5 +1,4 @@
 # Module 1: Why should we care about networks?
-
 [![What is a network? Why should we care?](https://img.youtube.com/vi/Fexa8nLxOAo/0.jpg)](https://www.youtube.com/watch?v=Fexa8nLxOAo)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fexa8nLxOAo?si=6rxR3NBkWLkE1Ivi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
