@@ -4,44 +4,27 @@ layout: default
 
 # Course overview
 
-From dashboards to cutting-edge scientific papers, from a home office to the
-largest companies in the world, we extensively use data visualization to reveal
-patterns in data. As our world becomes increasingly connected and digitized,
-and as decisions are increasingly driven by data, data visualization is
-becoming a critical skill for every knowledge worker. This course is an
-introduction to basic statistical data analysis and visualization. We will
-learn fundamentals of data visualization, in the context of visual perception,
-integrity, design, and statistics, as well as various types of data and
-visualization techniques. The hands-on exercises using Python stack and D3.js
-will be an integral part of the course. 
+Network science is a unifying framework to study complex systems, such as living organisms, societies, and many techno-social systems. Therefore, understanding networks and network (graph) data is fundamental to numerous domains. This graduate-level course introduces the fundamental concepts as well as key applications of network science for a broad range of students. Topics include statistical properties and models of real-world networks, network data & algorithms, how information and diseases spread in our society, and machine learning with networks — e.g., community detection (clustering) and graph embedding.
+
+Because _your_ learning should be the primary focus, please engage actively by voicing your confusions, challenges, and intriguing digressions! Rather than merely watching lectures, think critically, engage in debates, and immerse yourself. 
 
 # Course objectives
 
-By the end of the course, you are expected to understand, explain, and handle
-basic types of data, analyze them using basic exploratory visualization
-techniques, and create explanatory web-based visualizations. You will also be
-able to evaluate the effectiveness of data visualizations based on the
-principles of human perception, design, types of data, and visualization
-techniques. 
-
-
+By the end of the course, students are expected to be able to identify, construct, model, and analyze networks by choosing and applying appropriate methods and algorithms, as well as understanding ethical issues surrounding network data. Students are also expected to be able to explain, both mathematically and conceptually, the key network concepts, algorithms, models, and statistical properties, as well as their implications.
 
 # Basic Information
 
-- **Homepage**: [https://yy.github.io/dviz-course/](https://yy.github.io/dviz-course/)
-- **GitHub**: [https://github.com/yy/dviz-course](https://github.com/yy/dviz-course)
-- **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) (Office Hours: Wed 9-10am)
-- **Relationships with S637 Information Visualization (IVMOOC)**: Compared with S637, this course is more geared towards fundamental statistical visualizations and exploratory data analysis, using Python stack and D3.js. Therefore, this course may be suitable for students who pursue their careers in research, developement, data analysis, and so on. 
+- **Homepage**: [https://yy.github.io/netsci-course/](https://yy.github.io/netsci-course/)
+- **GitHub**: [https://github.com/yy/netsci-course](https://github.com/yy/netsci-course)
+- **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) 
 - **Announcements**: All announcements will be sent via Canvas and Slack. 
-- **Prerequisites**: This course is open to advanced undergraduate students (I422) as well as graduate students (I590). Because programming (in Python and Javascript) is an integral part of the course, it is required to have good understanding and working knowledge of programming. The basic programming courses (Both I210/I211 or equivalent) are required prerequisites. In addition, *I308: Information Representation* and a basic statistics course is a recommended prerequisite. Basic understanding of design process and web (HTML, CSS, Javascript) is also highly recommended.
-- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/dviz_syllabus.pdf), but you should check this homepage for up-to-date information. 
+- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/netsci_syllabus.pdf). 
 
 # Links 
 
-- [Course Wiki](https://github.com/yy/dviz-course/wiki)
-- [Course schedule](https://github.com/yy/dviz-course/wiki/Schedule)
-- [Projects](https://github.com/yy/dviz-course/wiki/Projects)
-- [Resources](https://github.com/yy/dviz-course/wiki/Resources)
+- [Course Wiki](https://github.com/yy/netsci-course/wiki)
+- [Projects](https://github.com/yy/netsci-course/wiki/Projects)
+- [Resources](https://github.com/yy/netsci-course/wiki/Resources)
 
 
 # Special Thanks
