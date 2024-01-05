@@ -36,8 +36,8 @@ extra_javascript:
 theme:
   name: material
   language: en
-  logo: images/dv.png
-  favicon: images/dv.png
+  logo: images/logo.png
+  favicon: images/logo.png
   features:
     - navigation.instant
     - navigation.top
