@@ -30,7 +30,7 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=physics
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Theme
 theme:
@@ -82,7 +82,8 @@ plugins:
 # TOC
 nav:
     - index.md
-    - "Module 0: before we jump in":
-      - m01-intro/self_assessment.ipynb
+    - "Module 0: Primer":
+      - m00-primer/lab00-self_assessment.ipynb
+      - m00-primer/lab00-python_review.ipynb
     - "Module 1: Introduction":
-      - m01-intro/lab01.ipynb
+      - m01-intro/lab01-env.ipynb
