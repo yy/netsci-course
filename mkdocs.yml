@@ -84,6 +84,6 @@ nav:
     - index.md
     - "Module 0: Primer":
       - m00-primer/lab00-self_assessment.ipynb
-      - m00-primer/lab00-python_review.ipynb
     - "Module 1: Introduction":
+      - m01-intro/lab01-python_review.ipynb
       - m01-intro/lab01-env.ipynb
