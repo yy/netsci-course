@@ -86,3 +86,4 @@ nav:
       - m00-primer/lab00-self_assessment.ipynb
     - "Module 1: Introduction":
       - m01-intro/lab01-python_review.ipynb
+      - m01-intro/lab01-env.ipynb
