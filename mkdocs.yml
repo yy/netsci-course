@@ -87,3 +87,7 @@ nav:
     - "Module 1: Introduction":
       - m01-intro/lab01-python_review.ipynb
       - m01-intro/lab01-env.ipynb
+    - "Module 2: Friendship paradox":
+      - m02-friendship_paradox/lab02.ipynb
+    - "Resources":
+      - resources/index.md
