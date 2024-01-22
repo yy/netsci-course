@@ -89,5 +89,7 @@ nav:
       - m01-intro/lab01-env.ipynb
     - "Module 2: Friendship paradox":
       - m02-friendship_paradox/lab02.ipynb
+    - "Module 3: What a small world!":
+      - m03-smallworld/lab03.ipynb
     - "Resources":
       - resources/index.md
