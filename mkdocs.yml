@@ -93,5 +93,7 @@ nav:
       - m03-smallworld/lab03.ipynb
     - "Module 4: Strength of weak ties":
       - m04-weakties/lab04.ipynb
+    - "Module 5: Scale-free networks":
+      - m05-scalefree/lab05.ipynb
     - "Resources":
       - resources/index.md
