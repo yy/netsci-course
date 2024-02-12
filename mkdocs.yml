@@ -95,5 +95,7 @@ nav:
       - m04-weakties/lab04.ipynb
     - "Module 5: Scale-free networks":
       - m05-scalefree/lab05.ipynb
+    - "Module 6: Centralities":
+      - m06-centrality/lab06.ipynb
     - "Resources":
       - resources/index.md
