@@ -97,5 +97,7 @@ nav:
       - m05-scalefree/lab05.ipynb
     - "Module 6: Centralities":
       - m06-centrality/lab06.ipynb
+    - "Module 7: Communites":
+      - m07-communities/lab07.ipynb
     - "Resources":
       - resources/index.md
