@@ -99,5 +99,6 @@ nav:
       - m06-centrality/lab06.ipynb
     - "Module 7: Communites":
       - m07-communities/lab07.ipynb
+      - m07-communities/lab07-2.ipynb
     - "Resources":
       - resources/index.md
