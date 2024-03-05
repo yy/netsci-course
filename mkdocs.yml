@@ -100,5 +100,7 @@ nav:
     - "Module 7: Communites":
       - m07-communities/lab07.ipynb
       - m07-communities/lab07-2.ipynb
+    - "Module 8: Random graphs":
+      - m08-randomgraphs/lab08.ipynb
     - "Resources":
       - resources/index.md
