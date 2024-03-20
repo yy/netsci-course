@@ -102,5 +102,7 @@ nav:
       - m07-communities/lab07-2.ipynb
     - "Module 8: Random graphs":
       - m08-randomgraphs/lab08.ipynb
+    - "Module 9: Network Epidemiology":
+      - m09-netepi/lab09.ipynb
     - "Resources":
       - resources/index.md
