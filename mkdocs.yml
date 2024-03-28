@@ -104,5 +104,7 @@ nav:
       - m08-randomgraphs/lab08.ipynb
     - "Module 9: Network Epidemiology":
       - m09-netepi/lab09.ipynb
+    - "Module 10: Information Diffusion":
+      - m10-infodiff/lab10.ipynb
     - "Resources":
       - resources/index.md
