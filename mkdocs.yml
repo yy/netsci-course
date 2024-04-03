@@ -106,5 +106,7 @@ nav:
       - m09-netepi/lab09.ipynb
     - "Module 10: Information Diffusion":
       - m10-infodiff/lab10.ipynb
+    - "Module 11: Machine Learning":
+      - m11-ml/lab11.ipynb
     - "Resources":
       - resources/index.md
