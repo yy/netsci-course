@@ -1,0 +1,13 @@
+jupyter
+ipykernel
+numpy
+scipy
+matplotlib
+networkx
+seaborn
+pandas
+vega_datasets
+scikit-learn
+mkdocs
+mkdocs-material
+mkdocs-jupyter
