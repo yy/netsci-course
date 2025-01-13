@@ -83,7 +83,6 @@ extra:
 
 # Plugins
 plugins:
-  - macros
   - mkdocs-jupyter:
       kernel_name: python3
   - search

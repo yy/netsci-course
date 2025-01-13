@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.un~
 *.DS_Store
+site/
 
 # TeX
 *.bcf
